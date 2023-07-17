@@ -35,7 +35,7 @@ public class BoardController {
 	@RequestMapping(value="/view.do")
 	public String view() {
 		
-		
+		System.out.println("1111");
 		return "board/view";
 	}
 	
